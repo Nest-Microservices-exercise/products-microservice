@@ -41,7 +41,7 @@ export class ProductsService extends PrismaClient implements OnModuleInit {
     });
 
     if (!product)
-      throw new NotFoundException(`Thi product not found #${id}`)
+      throw new NotFoundException(`This product not found #${id}`)
     return {
       data: await this.product.findUnique({
         where: { id },
