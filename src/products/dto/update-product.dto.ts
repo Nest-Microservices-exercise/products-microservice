@@ -7,6 +7,4 @@ export class UpdateProductDto extends PartialType(CreateProductDto) {
     @IsNumber()
     @IsPositive()
     id: number;
-    @IsBoolean()
-    isActive: boolean;
 }
