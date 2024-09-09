@@ -16,5 +16,12 @@
         </library>
       </libraries>
     </data-source>
+    <data-source source="LOCAL" name="orders" uuid="e19de397-5b00-4c0d-b85f-86a16c779744">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/ordersdb</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
