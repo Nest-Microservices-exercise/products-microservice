@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="dev" uuid="d5c2331c-6da2-4000-b07b-194e63e6a730">
+    <data-source source="LOCAL" name="dev" uuid="1c848378-f33c-432b-8640-34477becc054">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
@@ -15,13 +15,6 @@
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.45.1/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar</url>
         </library>
       </libraries>
-    </data-source>
-    <data-source source="LOCAL" name="orders" uuid="e19de397-5b00-4c0d-b85f-86a16c779744">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/ordersdb</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
 </project>
